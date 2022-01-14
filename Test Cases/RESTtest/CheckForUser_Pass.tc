@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Looks for users with lastname &quot;Howell&quot; and &quot;Lawson&quot;</description>
+   <name>CheckForUser_Pass</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6c8c5fa-3984-4908-a5b9-dee4cc2aca6e</testCaseGuid>
+</TestCaseEntity>

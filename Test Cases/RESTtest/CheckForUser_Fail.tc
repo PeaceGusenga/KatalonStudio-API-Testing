@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Checks for user with first name &quot;Thanos&quot;</description>
+   <name>CheckForUser_Fail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37902f87-ba94-4b8e-b603-b8f3b3d1f6da</testCaseGuid>
+</TestCaseEntity>

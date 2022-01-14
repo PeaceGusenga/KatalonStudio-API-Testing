@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
-   <description></description>
-   <name>GetBooking</name>
+   <description>Lists Users availble</description>
+   <name>ListUsers</name>
    <tag></tag>
-   <elementGuidId>fef6ba5e-6452-4213-b08e-b1d482c47001</elementGuidId>
+   <elementGuidId>b736e215-8388-4848-8fb6-bc1e07245ee2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>0</connectionTimeout>
@@ -15,7 +15,7 @@
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://restful-booker.herokuapp.com/booking</restUrl>
+   <restUrl>https://reqres.in/api/users?page=2</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -38,9 +38,12 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-
 WS.verifyResponseStatusCode(response, 200)
 
-assertThat(response.getStatusCode()).isEqualTo(200)</verificationScript>
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+WS.verifyElementPropertyValue(response, 'data[0].last_name', 'Lawson')
+
+WS.verifyElementPropertyValue(response, 'data[5].last_name', 'Howell')</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
