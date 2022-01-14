@@ -6,7 +6,7 @@
    <elementGuidId>d05ad422-16b6-4a0a-8078-bfb731f1225b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -26,7 +26,7 @@
       <value>text/xml; charset=utf-8</value>
    </httpHeaderProperties>
    <katalonVersion>8.2.0</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <restRequestMethod></restRequestMethod>
    <restUrl></restUrl>
    <serviceType>SOAP</serviceType>
@@ -34,8 +34,8 @@
    &lt;soapenv:Header/>
    &lt;soapenv:Body>
       &lt;tem:Divide>
-         &lt;tem:intA>3&lt;/tem:intA>
-         &lt;tem:intB>3&lt;/tem:intB>
+         &lt;tem:intA>25&lt;/tem:intA>
+         &lt;tem:intB>5&lt;/tem:intB>
       &lt;/tem:Divide>
    &lt;/soapenv:Body>
 &lt;/soapenv:Envelope></soapBody>
@@ -43,7 +43,29 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceEndpoint>http://www.dneonline.com/calculator.asmx</soapServiceEndpoint>
    <soapServiceFunction>Divide</soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+assertThat(response.getStatusCode()).isIn(Arrays.asList(200, 201, 202))
+
+WS.verifyElementPropertyValue(response, 'DivideReponse.DivideResult', '5')</verificationScript>
    <wsdlAddress>http://www.dneonline.com/calculator.asmx?wsdl</wsdlAddress>
 </WebServiceRequestEntity>
