@@ -34,8 +34,8 @@
    &lt;soapenv:Header/>
    &lt;soapenv:Body>
       &lt;tem:Add>
-         &lt;tem:intA>5&lt;/tem:intA>
-         &lt;tem:intB>5&lt;/tem:intB>
+         &lt;tem:intA>2&lt;/tem:intA>
+         &lt;tem:intB>4&lt;/tem:intB>
       &lt;/tem:Add>
    &lt;/soapenv:Body>
 &lt;/soapenv:Envelope></soapBody>
@@ -57,6 +57,17 @@ import internal.GlobalVariable as GlobalVariable
 
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
-ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
+
+WS.verifyResponseStatusCode(response, 200)
+
+assertThat(response.getStatusCode()).isEqualTo(200)
+
+
+assertThat(response.getResponseText()).contains('AddResult')
+
+
+WS.verifyElementPropertyValue(response, 'AddResponse.AddResult', '6')</verificationScript>
    <wsdlAddress>http://www.dneonline.com/calculator.asmx?wsdl</wsdlAddress>
 </WebServiceRequestEntity>

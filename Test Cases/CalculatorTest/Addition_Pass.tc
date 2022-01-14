@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>GetSum of 2 Numbers</name>
+   <name>Addition_Pass</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f2856dad-1df1-4475-a7b2-907e16c63b36</testCaseGuid>
