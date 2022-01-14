@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RESTful Testing,,,,2022-01-14 17:07:21,2022-01-14 17:07:29,8.759s,ERROR
+,,,,,,,
+Test Cases/RESTtest/CheckForUser_Fail,,"Checks for user with first name ""Thanos""",,2022-01-14 17:07:27,2022-01-14 17:07:28,0.587s,ERROR
+"response = sendRequestAndVerify(findTestObject(""REST Service/ListUsers""))",,,,2022-01-14 17:07:27,2022-01-14 17:07:28,0.560s,PASSED
+"verifyElementPropertyValue(reponse, ""data[2].first_name"", ""Thanos"")",,,,2022-01-14 17:07:28,2022-01-14 17:07:28,0.004s,ERROR
+,,,,,,,
+Test Cases/RESTtest/CheckForUser_Pass,,"Looks for users with lastname ""Howell"" and ""Lawson""",,2022-01-14 17:07:28,2022-01-14 17:07:29,1.101s,PASSED
+"response = sendRequestAndVerify(findTestObject(""REST Service/ListUsers""))",,,,2022-01-14 17:07:28,2022-01-14 17:07:29,0.519s,PASSED
+"verifyElementPropertyValue(response, ""data[0].last_name"", ""Lawson"")",,,,2022-01-14 17:07:29,2022-01-14 17:07:29,0.023s,PASSED
+,,,,,,,
+Test Cases/RESTtest/ListUsers,,List Users,,2022-01-14 17:07:29,2022-01-14 17:07:29,0.536s,PASSED
+"sendRequest(findTestObject(""REST Service/ListUsers""))",,,,2022-01-14 17:07:29,2022-01-14 17:07:29,0.255s,PASSED
