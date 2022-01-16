@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SOAP_CountryInfo_Testuite" time="17.454" tests="12" failures="0" errors="0">
+   <testsuite name="SOAP_CountryInfo_Testuite" tests="12" failures="0" errors="0" time="17.454" skipped="0" timestamp="2022-01-16 17:54:59" hostname="PEACE - 10.0.0.111" id="Test Suites/SOAP_CountryInfo_Testuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447"/>
+         <property name="logFiles" value="/Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PEACE - 10.0.0.111"/>
+         <property name="hostAddress" value="10.0.0.111"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CapitalCity" time="3.898" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CapitalCity" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:00 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/CapitalCity: Test Cases/CountryInfoService_(SOAP)/CountryInfo/CapitalCity
+
+2022-01-16 17:55:00 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/CapitalCity")): Send request and verify the response successfully
+
+2022-01-16 17:55:02 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/0.har
+
+2022-01-16 17:55:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:03 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:03 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:04 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:04 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountriesUsingCurrency" time="1.226" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountriesUsingCurrency" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:04 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountriesUsingCurrency: Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountriesUsingCurrency
+
+2022-01-16 17:55:04 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/CountriesUsingCurrency")): Send request and verify the response successfully
+
+2022-01-16 17:55:05 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/1.har
+
+2022-01-16 17:55:05 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:05 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:05 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:05 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:05 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:05 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:05 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryCurrency" time="1.071" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryCurrency" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:05 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryCurrency: Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryCurrency
+
+2022-01-16 17:55:05 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/CountryCurrency")): Send request and verify the response successfully
+
+2022-01-16 17:55:06 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/2.har
+
+2022-01-16 17:55:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:06 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:06 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:06 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:06 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:06 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryFlag" time="0.939" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryFlag" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:06 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryFlag: Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryFlag
+
+2022-01-16 17:55:06 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/CountryFlag")): Send request and verify the response successfully
+
+2022-01-16 17:55:07 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/3.har
+
+2022-01-16 17:55:07 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:07 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:07 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:07 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:07 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:07 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:07 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryIntPhoneCode" time="1.064" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryIntPhoneCode" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:07 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryIntPhoneCode: Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryIntPhoneCode
+
+2022-01-16 17:55:07 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/CountryIntPhoneCode")): Send request and verify the response successfully
+
+2022-01-16 17:55:08 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/4.har
+
+2022-01-16 17:55:08 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:08 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:08 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:08 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:08 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:08 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:08 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:08 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:08 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryISOCode" time="0.902" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryISOCode" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:08 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryISOCode: Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryISOCode
+
+2022-01-16 17:55:08 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/CountryISOCode")): Send request and verify the response successfully
+
+2022-01-16 17:55:09 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/5.har
+
+2022-01-16 17:55:09 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:09 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:09 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:09 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:09 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:09 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:09 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryName" time="1.035" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryName" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:09 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryName: Test Cases/CountryInfoService_(SOAP)/CountryInfo/CountryName
+
+2022-01-16 17:55:09 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/CountryName")): Send request and verify the response successfully
+
+2022-01-16 17:55:10 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/6.har
+
+2022-01-16 17:55:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:10 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:10 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:10 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:10 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:10 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CurrencyName" time="1.112" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/CurrencyName" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:10 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/CurrencyName: Test Cases/CountryInfoService_(SOAP)/CountryInfo/CurrencyName
+
+2022-01-16 17:55:10 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/CurrencyName")): Send request and verify the response successfully
+
+2022-01-16 17:55:11 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/7.har
+
+2022-01-16 17:55:11 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:11 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:11 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:11 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:11 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:11 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:11 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:11 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/FullCountryInfo" time="1.323" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/FullCountryInfo" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:11 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/FullCountryInfo: Test Cases/CountryInfoService_(SOAP)/CountryInfo/FullCountryInfo
+
+2022-01-16 17:55:11 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/FullCountryInfo")): Send request and verify the response successfully
+
+2022-01-16 17:55:12 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/8.har
+
+2022-01-16 17:55:12 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:12 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:12 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:12 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:12 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:12 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:12 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/FullCountryInfoAllCountries" time="2.12" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/FullCountryInfoAllCountries" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:12 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/FullCountryInfoAllCountries: Test Cases/CountryInfoService_(SOAP)/CountryInfo/FullCountryInfoAllCountries
+
+2022-01-16 17:55:13 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/FullCountryInfoAllCountries")): Send request and verify the response successfully
+
+2022-01-16 17:55:14 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/9.har
+
+2022-01-16 17:55:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:15 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:15 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageISOCode" time="0.896" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageISOCode" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:15 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageISOCode: Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageISOCode
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/LanguageISOCode")): Send request and verify the response successfully
+
+2022-01-16 17:55:15 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/10.har
+
+2022-01-16 17:55:15 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:15 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:15 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:15 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:15 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageName" time="0.865" classname="Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageName" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:55:15 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageName: Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageName
+
+2022-01-16 17:55:16 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/LanguageName")): Send request and verify the response successfully
+
+2022-01-16 17:55:16 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_175447/SOAP_CountryInfo_Testuite/20220116_175447/requests/main/11.har
+
+2022-01-16 17:55:16 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:55:16 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:55:16 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:55:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:55:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:55:16 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:55:16 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:55:16 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:55:16 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 17:54:59 - [TEST_SUITE][PASSED] - SOAP_CountryInfo_Testuite: Test Cases/CountryInfoService_(SOAP)/CountryInfo/LanguageName]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

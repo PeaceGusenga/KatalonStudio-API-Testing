@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>SOAP Request</description>
+   <name>ListCountryNamesByName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb616508-9219-4ad9-b97f-45919c5f80f5</testCaseGuid>
+</TestCaseEntity>

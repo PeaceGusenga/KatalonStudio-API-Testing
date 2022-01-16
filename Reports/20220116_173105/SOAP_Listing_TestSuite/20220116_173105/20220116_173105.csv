@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SOAP_Listing_TestSuite,,Test Suite comprised of various listing test cases,,2022-01-16 17:31:17,2022-01-16 17:31:33,16.150s,ERROR
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListContinentByCode,,,,2022-01-16 17:31:18,2022-01-16 17:31:22,3.872s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfContinentsByCode""))",,,,2022-01-16 17:31:18,2022-01-16 17:31:22,3.085s,PASSED
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListContinentsByName,,,,2022-01-16 17:31:22,2022-01-16 17:31:23,1.208s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfContinentsByName""))",,,,2022-01-16 17:31:22,2022-01-16 17:31:23,0.692s,PASSED
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName,,SOAP Request,,2022-01-16 17:31:25,2022-01-16 17:31:26,0.582s,ERROR
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCountryNamesByName""))",,,,2022-01-16 17:31:25,2022-01-16 17:31:26,0.566s,ERROR
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListOfcountryNamesByCode,,,,2022-01-16 17:31:26,2022-01-16 17:31:27,1.158s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCountryNamesByCode""))",,,,2022-01-16 17:31:26,2022-01-16 17:31:27,0.850s,PASSED
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListOfCountryNamesGroupedByContinent,,,,2022-01-16 17:31:27,2022-01-16 17:31:29,1.292s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCountryNamesGroupedByContinent""))",,,,2022-01-16 17:31:28,2022-01-16 17:31:29,0.896s,PASSED
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByCode,,,,2022-01-16 17:31:29,2022-01-16 17:31:30,0.974s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCurrenciesByCode""))",,,,2022-01-16 17:31:29,2022-01-16 17:31:30,0.673s,PASSED
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByName,,,,2022-01-16 17:31:30,2022-01-16 17:31:31,1.020s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCurrenciesByName""))",,,,2022-01-16 17:31:30,2022-01-16 17:31:31,0.758s,PASSED
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByCode,,,,2022-01-16 17:31:31,2022-01-16 17:31:32,1.259s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfLanguagesByCode""))",,,,2022-01-16 17:31:31,2022-01-16 17:31:32,0.961s,PASSED
+,,,,,,,
+Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByName,,,,2022-01-16 17:31:32,2022-01-16 17:31:33,1.143s,PASSED
+"sendRequestAndVerify(findTestObject(""SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfLanguagesByName""))",,,,2022-01-16 17:31:32,2022-01-16 17:31:33,0.852s,PASSED

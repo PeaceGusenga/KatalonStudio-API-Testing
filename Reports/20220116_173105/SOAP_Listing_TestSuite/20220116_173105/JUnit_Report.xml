@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SOAP_Listing_TestSuite" time="16.15" tests="9" failures="0" errors="1">
+   <testsuite name="SOAP_Listing_TestSuite" tests="9" failures="0" errors="1" time="16.15" skipped="0" timestamp="2022-01-16 17:31:17" hostname="PEACE - 10.0.0.111" id="Test Suites/SOAP_Listing_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105"/>
+         <property name="logFiles" value="/Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PEACE - 10.0.0.111"/>
+         <property name="hostAddress" value="10.0.0.111"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListContinentByCode" time="3.872" classname="Test Cases/CountryInfoService_(SOAP)/ListContinentByCode" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:31:18 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/ListContinentByCode: Test Cases/CountryInfoService_(SOAP)/ListContinentByCode
+
+2022-01-16 17:31:18 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfContinentsByCode")): Send request and verify the response successfully
+
+2022-01-16 17:31:20 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/0.har
+
+2022-01-16 17:31:21 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:31:21 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:31:21 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:31:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:21 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:22 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:31:22 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListContinentsByName" time="1.208" classname="Test Cases/CountryInfoService_(SOAP)/ListContinentsByName" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:31:22 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/ListContinentsByName: Test Cases/CountryInfoService_(SOAP)/ListContinentsByName
+
+2022-01-16 17:31:22 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfContinentsByName")): Send request and verify the response successfully
+
+2022-01-16 17:31:23 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/1.har
+
+2022-01-16 17:31:23 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:31:23 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:31:23 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:31:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:23 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:23 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:31:23 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName" time="0.582" classname="Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName" status="ERROR">
+         <error type="ERROR" message="Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName FAILED.
+Reason:
+java.lang.NullPointerException
+"/>
+         <system-out><![CDATA[2022-01-16 17:31:25 - [TEST_CASE][ERROR] - Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName: Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName FAILED.
+Reason:
+java.lang.NullPointerException
+
+
+2022-01-16 17:31:25 - [TEST_STEP][ERROR] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCountryNamesByName")): Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Verification failed because of error(s)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify.call(Unknown Source)
+	at ListCountryNamesByName.run(ListCountryNamesByName:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642347065066.run(TempTestSuite1642347065066.groovy:36)
+
+
+2022-01-16 17:31:26 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/5.har
+
+2022-01-16 17:31:26 - [TEST_CASE][ERROR] - Start Test Case : Verification: Verification FAILED.
+Reason:
+java.lang.NullPointerException
+
+
+2022-01-16 17:31:26 - [MESSAGE][FAILED] - Unable to send request and verify the response (Root cause: com.kms.katalon.core.exception.StepErrorException: Verification failed because of error(s)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify.call(Unknown Source)
+	at ListCountryNamesByName.run(ListCountryNamesByName:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642347065066.run(TempTestSuite1642347065066.groovy:36)
+)
+
+2022-01-16 17:31:26 - [MESSAGE][ERROR] - Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName FAILED.
+Reason:
+com.kms.katalon.core.exception.StepErrorException: Verification failed because of error(s)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:66)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify.call(Unknown Source)
+	at ListCountryNamesByName.run(ListCountryNamesByName:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642347065066.run(TempTestSuite1642347065066.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-01-16 17:31:25 - [TEST_CASE][ERROR] - Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName: Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName FAILED.
+Reason:
+java.lang.NullPointerException]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListOfcountryNamesByCode" time="1.158" classname="Test Cases/CountryInfoService_(SOAP)/ListOfcountryNamesByCode" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:31:26 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/ListOfcountryNamesByCode: Test Cases/CountryInfoService_(SOAP)/ListOfcountryNamesByCode
+
+2022-01-16 17:31:26 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCountryNamesByCode")): Send request and verify the response successfully
+
+2022-01-16 17:31:27 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/6.har
+
+2022-01-16 17:31:27 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:31:27 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:31:27 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:31:27 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:31:27 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:27 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:27 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:27 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:31:27 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListOfCountryNamesGroupedByContinent" time="1.292" classname="Test Cases/CountryInfoService_(SOAP)/ListOfCountryNamesGroupedByContinent" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:31:27 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/ListOfCountryNamesGroupedByContinent: Test Cases/CountryInfoService_(SOAP)/ListOfCountryNamesGroupedByContinent
+
+2022-01-16 17:31:28 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCountryNamesGroupedByContinent")): Send request and verify the response successfully
+
+2022-01-16 17:31:28 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/7.har
+
+2022-01-16 17:31:28 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:29 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:29 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:31:29 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByCode" time="0.974" classname="Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByCode" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:31:29 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByCode: Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByCode
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCurrenciesByCode")): Send request and verify the response successfully
+
+2022-01-16 17:31:29 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/8.har
+
+2022-01-16 17:31:29 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:31:29 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:31:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:30 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:30 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:30 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:31:30 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByName" time="1.02" classname="Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByName" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:31:30 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByName: Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByName
+
+2022-01-16 17:31:30 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfCurrenciesByName")): Send request and verify the response successfully
+
+2022-01-16 17:31:30 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/9.har
+
+2022-01-16 17:31:30 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:31:31 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:31:31 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:31:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:31 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:31 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:31:31 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:31:31 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByCode" time="1.259" classname="Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByCode" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:31:31 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByCode: Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByCode
+
+2022-01-16 17:31:31 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfLanguagesByCode")): Send request and verify the response successfully
+
+2022-01-16 17:31:32 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/10.har
+
+2022-01-16 17:31:32 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:31:32 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:31:32 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:31:32 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-01-16 17:31:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:32 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:32 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:32 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:32 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:32 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:31:32 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByName" time="1.143" classname="Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByName" status="PASSED">
+         <system-out><![CDATA[2022-01-16 17:31:32 - [TEST_CASE][PASSED] - Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByName: Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByName
+
+2022-01-16 17:31:32 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("SOAP Service/CountryInfoService/SOAP Service/CountryInfoServiceSoapBinding/ListOfLanguagesByName")): Send request and verify the response successfully
+
+2022-01-16 17:31:33 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_173105/SOAP_Listing_TestSuite/20220116_173105/requests/main/11.har
+
+2022-01-16 17:31:33 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 17:31:33 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 17:31:33 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 17:31:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 17:31:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 17:31:33 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 17:31:33 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 17:31:33 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 17:31:17 - [TEST_SUITE][ERROR] - SOAP_Listing_TestSuite: Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.main.ScriptEngine.processNotRunLabels(ScriptEngine.java:145)
+	at com.kms.katalon.core.main.ScriptEngine.preProcessScriptBeforeBuild(ScriptEngine.java:138)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:118)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:178)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:172)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:155)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:147)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:129)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:151)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:59)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify.call(Unknown Source)
+	at ListCountryNamesByName.run(ListCountryNamesByName:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642347065066.run(TempTestSuite1642347065066.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-01-16 17:31:17 - [TEST_SUITE][ERROR] - SOAP_Listing_TestSuite: Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName FAILED.
+Reason:
+java.lang.NullPointerException
+	at com.kms.katalon.core.main.ScriptEngine.processNotRunLabels(ScriptEngine.java:145)
+	at com.kms.katalon.core.main.ScriptEngine.preProcessScriptBeforeBuild(ScriptEngine.java:138)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:118)
+	at com.kms.katalon.core.main.WSVerificationExecutor.runScript(WSVerificationExecutor.java:178)
+	at com.kms.katalon.core.main.WSVerificationExecutor.doExecute(WSVerificationExecutor.java:172)
+	at com.kms.katalon.core.main.WSVerificationExecutor.processExecutionPhase(WSVerificationExecutor.java:155)
+	at com.kms.katalon.core.main.WSVerificationExecutor.accessMainPhase(WSVerificationExecutor.java:147)
+	at com.kms.katalon.core.main.WSVerificationExecutor.execute(WSVerificationExecutor.java:129)
+	at com.kms.katalon.core.main.TestCaseMain.runWSVerificationScript(TestCaseMain.java:151)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.doCall(SendRequestAndVerifyKeyword.groovy:59)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword$_sendRequestAndVerify_closure1.call(SendRequestAndVerifyKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.sendRequestAndVerify(SendRequestAndVerifyKeyword.groovy:43)
+	at com.kms.katalon.core.webservice.keyword.builtin.SendRequestAndVerifyKeyword.execute(SendRequestAndVerifyKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.sendRequestAndVerify(WSBuiltInKeywords.groovy:65)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$sendRequestAndVerify.call(Unknown Source)
+	at ListCountryNamesByName.run(ListCountryNamesByName:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642347065066.run(TempTestSuite1642347065066.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

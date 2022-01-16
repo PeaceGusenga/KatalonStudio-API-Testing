@@ -1,0 +1,9 @@
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListContinentByCode","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListContinentByCode"}
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListContinentsByName","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListContinentsByName"}
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListCountryNamesByName"}
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListOfcountryNamesByCode","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListOfcountryNamesByCode"}
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListOfCountryNamesGroupedByContinent","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListOfCountryNamesGroupedByContinent"}
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByCode","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByCode"}
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByName","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListOfCurrenciesByName"}
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByCode","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByCode"}
+{"testCaseName":"Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByName","testCaseId":"Test Cases/CountryInfoService_(SOAP)/ListOfLanguagesByName"}
