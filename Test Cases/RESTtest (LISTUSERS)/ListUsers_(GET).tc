@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>List Users</description>
-   <name>ListUsers</name>
+   <name>ListUsers_(GET)</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d7377804-cb0c-48f2-8588-939ddbb4c25d</testCaseGuid>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test GET,POST,PUT,DELETE methods</description>
+   <name>TestHTTPMethods</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7bbf7c98-2e35-43ab-bddc-7e56167bdcb0</testCaseGuid>
+</TestCaseEntity>

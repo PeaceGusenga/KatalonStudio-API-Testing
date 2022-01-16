@@ -15,18 +15,18 @@
       <guid>972b1966-8338-497a-b7b5-6f17c572728c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail</testCaseId>
+      <testCaseId>Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>726817a3-1578-4a28-8ae1-158d34215edd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RESTtest (LISTUSERS)/CheckForUser_Pass</testCaseId>
+      <testCaseId>Test Cases/RESTtest (LISTUSERS)/CheckForUser_Pass_(GET)</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e6dc418b-2b0b-4ef4-aeaa-c2506b6a7c2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/RESTtest (LISTUSERS)/ListUsers</testCaseId>
+      <testCaseId>Test Cases/RESTtest (LISTUSERS)/ListUsers_(GET)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -15,6 +15,28 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-1170050772326448169.groovy</name>
+			<type>1</type>
+			<location>/var/folders/0d/plr00hz53bdbmv524xthfxb80000gn/T/Katalon/Web Services/kat-1170050772326448169.groovy</location>
+		</link>
+		<link>
+			<name>kat-2807101944715719934.groovy</name>
+			<type>1</type>
+			<location>/var/folders/0d/plr00hz53bdbmv524xthfxb80000gn/T/Katalon/Web Services/kat-2807101944715719934.groovy</location>
+		</link>
+		<link>
+			<name>kat-2838651484483950352.groovy</name>
+			<type>1</type>
+			<location>/var/folders/0d/plr00hz53bdbmv524xthfxb80000gn/T/Katalon/Web Services/kat-2838651484483950352.groovy</location>
+		</link>
+		<link>
+			<name>kat-7774751542710738648.groovy</name>
+			<type>1</type>
+			<location>/var/folders/0d/plr00hz53bdbmv524xthfxb80000gn/T/Katalon/Web Services/kat-7774751542710738648.groovy</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1642162004536</id>
@@ -27,6 +49,42 @@
 		</filter>
 		<filter>
 			<id>1642162004538</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1642336772893</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1642336772958</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1642336805549</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1642336805553</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
