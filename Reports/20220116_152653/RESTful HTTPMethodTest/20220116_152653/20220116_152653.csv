@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RESTful HTTPMethodTest,,,,2022-01-16 15:27:06,2022-01-16 15:27:15,9.133s,PASSED
+,,,,,,,
+Test Cases/RESTtest (LISTUSERS)/TestHTTPMethods,,"Test GET,POST,PUT,DELETE methods",,2022-01-16 15:27:07,2022-01-16 15:27:15,8.154s,PASSED
+"response = sendRequestAndVerify(findTestObject(""REST Service/ListUsers""))",,,,2022-01-16 15:27:08,2022-01-16 15:27:11,3.526s,PASSED
+"sendRequestAndVerify(findTestObject(""REST Service/DeleteUser""))",,,,2022-01-16 15:27:11,2022-01-16 15:27:13,1.503s,PASSED
+"sendRequestAndVerify(findTestObject(""REST Service/UpdatUser""))",,,,2022-01-16 15:27:13,2022-01-16 15:27:14,1.166s,PASSED
+"sendRequestAndVerify(findTestObject(""REST Service/CreateUser""))",,,,2022-01-16 15:27:14,2022-01-16 15:27:15,1.224s,PASSED

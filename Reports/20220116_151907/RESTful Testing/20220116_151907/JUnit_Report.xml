@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RESTful Testing" time="7.652" tests="3" failures="0" errors="1">
+   <testsuite name="RESTful Testing" tests="3" failures="0" errors="1" time="7.652" skipped="0" timestamp="2022-01-16 15:19:18" hostname="PEACE - 10.0.0.111" id="Test Suites/RESTful Testing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/user/git/KatalonStudio-API-Testing/Reports/20220116_151907/RESTful Testing/20220116_151907"/>
+         <property name="logFiles" value="/Users/user/git/KatalonStudio-API-Testing/Reports/20220116_151907/RESTful Testing/20220116_151907/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PEACE - 10.0.0.111"/>
+         <property name="hostAddress" value="10.0.0.111"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+      </properties>
+      <testcase name="Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET)" time="0.504" classname="Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET)" status="ERROR">
+         <error type="ERROR" message="Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: reponse for class: Script1642337699509
+	at CheckForUser_Fail_(GET).run(CheckForUser_Fail_(GET):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642339147192.run(TempTestSuite1642339147192.groovy:36)
+"/>
+         <system-out><![CDATA[2022-01-16 15:19:24 - [TEST_CASE][ERROR] - Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET): Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: reponse for class: Script1642337699509
+	at CheckForUser_Fail_(GET).run(CheckForUser_Fail_(GET):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642339147192.run(TempTestSuite1642339147192.groovy:36)
+
+
+2022-01-16 15:19:24 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("REST Service/ListUsers")): Send request and verify the response successfully
+
+2022-01-16 15:19:24 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_151907/RESTful Testing/20220116_151907/requests/main/3.har
+
+2022-01-16 15:19:24 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 15:19:24 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 15:19:24 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 15:19:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 15:19:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 15:19:24 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 15:19:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].last_name", "Lawson"): Verify element property value successfully
+
+2022-01-16 15:19:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-16 15:19:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[5].last_name", "Howell"): Verify element property value successfully
+
+2022-01-16 15:19:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-16 15:19:24 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 15:19:24 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-01-16 15:19:24 - [TEST_STEP][ERROR] - verifyElementPropertyValue(reponse, "data[2].first_name", "Thanos"): Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: reponse for class: Script1642337699509
+	at CheckForUser_Fail_(GET).run(CheckForUser_Fail_(GET):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642339147192.run(TempTestSuite1642339147192.groovy:36)
+
+
+2022-01-16 15:19:24 - [MESSAGE][ERROR] - Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: reponse for class: Script1642337699509
+	at CheckForUser_Fail_(GET).run(CheckForUser_Fail_(GET):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642339147192.run(TempTestSuite1642339147192.groovy:36)]]></system-out>
+         <system-err><![CDATA[2022-01-16 15:19:24 - [TEST_CASE][ERROR] - Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET): Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: reponse for class: Script1642337699509
+	at CheckForUser_Fail_(GET).run(CheckForUser_Fail_(GET):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642339147192.run(TempTestSuite1642339147192.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RESTtest (LISTUSERS)/CheckForUser_Pass_(GET)" time="0.855" classname="Test Cases/RESTtest (LISTUSERS)/CheckForUser_Pass_(GET)" status="PASSED">
+         <system-out><![CDATA[2022-01-16 15:19:24 - [TEST_CASE][PASSED] - Test Cases/RESTtest (LISTUSERS)/CheckForUser_Pass_(GET): Test Cases/RESTtest (LISTUSERS)/CheckForUser_Pass_(GET)
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("REST Service/ListUsers")): Send request and verify the response successfully
+
+2022-01-16 15:19:25 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_151907/RESTful Testing/20220116_151907/requests/main/4.har
+
+2022-01-16 15:19:25 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-01-16 15:19:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].last_name", "Lawson"): Verify element property value successfully
+
+2022-01-16 15:19:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[5].last_name", "Howell"): Verify element property value successfully
+
+2022-01-16 15:19:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-01-16 15:19:25 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-01-16 15:19:25 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[0].last_name", "Lawson"): Verify element property value successfully
+
+2022-01-16 15:19:25 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RESTtest (LISTUSERS)/ListUsers_(GET)" time="0.388" classname="Test Cases/RESTtest (LISTUSERS)/ListUsers_(GET)" status="PASSED">
+         <system-out><![CDATA[2022-01-16 15:19:25 - [TEST_CASE][PASSED] - Test Cases/RESTtest (LISTUSERS)/ListUsers_(GET): Test Cases/RESTtest (LISTUSERS)/ListUsers_(GET)
+
+2022-01-16 15:19:25 - [TEST_STEP][PASSED] - sendRequest(findTestObject("REST Service/ListUsers")): Send request successfully
+
+2022-01-16 15:19:26 - [MESSAGE][INFO] - HAR: /Users/user/git/KatalonStudio-API-Testing/Reports/20220116_151907/RESTful Testing/20220116_151907/requests/main/5.har
+
+2022-01-16 15:19:26 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-01-16 15:19:18 - [TEST_SUITE][ERROR] - RESTful Testing: Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: reponse for class: Script1642337699509
+	at CheckForUser_Fail_(GET).run(CheckForUser_Fail_(GET):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642339147192.run(TempTestSuite1642339147192.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-01-16 15:19:18 - [TEST_SUITE][ERROR] - RESTful Testing: Test Cases/RESTtest (LISTUSERS)/CheckForUser_Fail_(GET) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: reponse for class: Script1642337699509
+	at CheckForUser_Fail_(GET).run(CheckForUser_Fail_(GET):22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1642339147192.run(TempTestSuite1642339147192.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

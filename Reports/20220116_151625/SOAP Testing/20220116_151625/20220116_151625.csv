@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SOAP Testing,,,,2022-01-16 15:16:37,2022-01-16 15:16:59,22.445s,FAILED
+,,,,,,,
+Test Cases/CalculatorTest/Addition_Fail,,Expected failure searching for 8 instead of 6,,2022-01-16 15:16:47,2022-01-16 15:16:49,1.908s,FAILED
+"Response1 = sendRequest(findTestObject(""SOAP Service/CalculatorSoap/Add""))",,,,2022-01-16 15:16:47,2022-01-16 15:16:48,0.846s,PASSED
+"Response2 = sendRequestAndVerify(findTestObject(""SOAP Service/CalculatorSoap/Add""))",,,,2022-01-16 15:16:48,2022-01-16 15:16:49,0.910s,PASSED
+"Response3 = verifyElementPropertyValue(Response2, ""AddResponse.AddResult"", 8)",,,,2022-01-16 15:16:49,2022-01-16 15:16:49,0.092s,FAILED
+,,,,,,,
+Test Cases/CalculatorTest/Addition_Pass,,,,2022-01-16 15:16:49,2022-01-16 15:16:51,2.585s,PASSED
+"Response1 = sendRequest(findTestObject(""SOAP Service/CalculatorSoap/Add""))",,,,2022-01-16 15:16:50,2022-01-16 15:16:50,0.708s,PASSED
+"Response2 = sendRequestAndVerify(findTestObject(""SOAP Service/CalculatorSoap/Add""))",,,,2022-01-16 15:16:50,2022-01-16 15:16:51,1.016s,PASSED
+"Response3 = verifyElementPropertyValue(Response2, ""AddResponse.AddResult"", 6)",,,,2022-01-16 15:16:51,2022-01-16 15:16:51,0.052s,PASSED
+,,,,,,,
+Test Cases/CalculatorTest/Divide_Fail,,Failing result looking for 3 instead of 5,,2022-01-16 15:16:55,2022-01-16 15:16:56,1.137s,FAILED
+"response = sendRequestAndVerify(findTestObject(""SOAP Service/CalculatorSoap/Divide""))",,,,2022-01-16 15:16:55,2022-01-16 15:16:56,1.025s,PASSED
+"verifyElementPropertyValue(response, ""DivideResponse.DivideResult"", 3)",,,,2022-01-16 15:16:56,2022-01-16 15:16:56,0.082s,FAILED
+,,,,,,,
+Test Cases/CalculatorTest/Divide_Pass,,,,2022-01-16 15:16:56,2022-01-16 15:16:59,2.746s,PASSED
+"sendRequest(findTestObject(""SOAP Service/CalculatorSoap/Divide""))",,,,2022-01-16 15:16:58,2022-01-16 15:16:58,0.714s,PASSED
+"response = sendRequestAndVerify(findTestObject(""SOAP Service/CalculatorSoap/Divide""))",,,,2022-01-16 15:16:58,2022-01-16 15:16:59,0.883s,PASSED
+"verifyElementPropertyValue(response, ""DivideResponse.DivideResult"", 5)",,,,2022-01-16 15:16:59,2022-01-16 15:16:59,0.033s,PASSED
