@@ -6,6 +6,7 @@
    <UUID>427c8b0a-1b8c-444a-87dc-c30a683a2cf8</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/user/git/KatalonStudio-API-Testing/KatalonStudio-API-Testing.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
